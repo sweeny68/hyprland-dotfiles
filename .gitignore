@@ -34,3 +34,5 @@ __pycache__/
 # (Add other local paths you don't want tracked here)
 .local/
 .cache/
+.sync_2d0dc74a3c0a.db-wal
+.sync_2d0dc74a3c0a.db
