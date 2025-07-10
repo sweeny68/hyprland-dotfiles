@@ -14,3 +14,4 @@ fi
 
 # Launch the Bluetooth GUI
 blueman-manager &
+blueman-applet &
