@@ -57,36 +57,48 @@ brightnessctl pamixer playerctl neofetch
 
 ## 🚀 Installation
 
+```bash
 git clone https://github.com/sweeny68/hyprland-dotfiles.git
 cd hyprland-dotfiles
+```
 
 # Backup existing configs if needed
+```bash
 mkdir -p ~/.config_backup
 mv ~/.config/hypr ~/.config_backup/hypr_$(date +%s) 2>/dev/null
+```
 
 # Copy configs
+```bash
 cp -r hypr/.config/hypr ~/.config/
 cp -r kitty/.config/kitty ~/.config/
 cp -r swaync/.config/swaync ~/.config/
 cp -r waybar/.config/waybar ~/.config/
 cp -r wofi/.config/wofi ~/.config/
 cp -r neofetch/.config/neofetch ~/.config/
-
+```
 # Make scripts executable
-chmod +x ~/.config/hypr/scripts/*.sh
 
-🎮 Keybindings (Hyprland)
+```bash
+chmod +x ~/.config/hypr/scripts/*.sh
+```
+
+## Keybindings (Hyprland)
+
+```bash
 Keybinding	Action
 SUPER + Return	Open Kitty terminal
 SUPER + Space	Launch Wofi
 SUPER + Tab	Toggle Waybar/SwayNC
 CTRL + SHIFT + 4	Area screenshot
 XF86Audio* / XF86MonBrightness*	Media controls
+```
+
 👤 Author
 
 Oran McClintock
 oranmcclintock.com
-Twitter: @sweeny68
+
 📄 License
 
 MIT License
