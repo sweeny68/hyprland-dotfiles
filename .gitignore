@@ -1,0 +1,36 @@
+# Ignore Nextcloud sync directories (common defaults)
+Nextcloud/
+nextcloud/
+*.nextcloud
+*.sync-conflict*
+.nextcloudsync.log
+
+# Ignore hidden Nextcloud sync folders
+.ncp-sync/
+.nextcloudsync.log
+.sync_
+.sync/
+
+# macOS system files (if on Mac)
+.DS_Store
+
+# Swap and temp files
+*.swp
+*~
+*.tmp
+
+# Log files
+*.log
+
+# Avoid backing up sensitive system configs that shouldn't be synced
+*.bak
+*.old
+
+# Python cache (if any scripts)
+__pycache__/
+*.pyc
+
+# General dotfiles exclusions
+# (Add other local paths you don't want tracked here)
+.local/
+.cache/
