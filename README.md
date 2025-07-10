@@ -97,8 +97,8 @@ XF86Audio* / XF86MonBrightness*	Media controls
 
 👤 Author
 
-Oran McClintock
-oranmcclintock.com
+- Oran McClintock
+- oranmcclintock.com
 
 📄 License
 
