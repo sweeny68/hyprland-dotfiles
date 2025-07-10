@@ -22,13 +22,13 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 
 ## 🛠 Features
 
-- Dual-monitor layout (eDP-1 + HDMI-A-1)
-- Rounded corners, blur, shadows, gaps
-- Fast startup wallpaper + neofetch
-- Toggle scripts for Waybar and Bluetooth
-- Area screenshot tool with clipboard + notification
-- Media keys for volume, brightness, and player control
-- Lightweight terminal with themed Kitty setup
+- Dual-monitor layout (eDP-1 + HDMI-A-1)  
+- Rounded corners, blur, shadows, gaps  
+- Fast startup wallpaper + neofetch  
+- Toggle scripts for Waybar and Bluetooth  
+- Area screenshot tool with clipboard + notification  
+- Media keys for volume, brightness, and player control  
+- Lightweight terminal with themed Kitty setup  
 
 ---
 
@@ -36,12 +36,12 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 
 Located in `~/.config/hypr/scripts/`:
 
-| Script               | Description                         |
-|----------------------|-------------------------------------|
-| `startup.sh`         | Sets wallpaper and runs neofetch   |
-| `areascreenshot`     | Grim + slurp screenshot tool       |
-| `start-bluetooth.sh` | Starts Bluetooth daemon + applet   |
-| `toggle_waybar.sh`   | Toggles Waybar and SwayNC          |
+| Script               | Description                        |
+|----------------------|----------------------------------|
+| `startup.sh`         | Sets wallpaper and runs neofetch |
+| `areascreenshot`     | Grim + slurp screenshot tool     |
+| `start-bluetooth.sh` | Starts Bluetooth daemon + applet |
+| `toggle_waybar.sh`   | Toggles Waybar and SwayNC        |
 
 ---
 
@@ -54,9 +54,7 @@ sudo apt install hyprland kitty waybar wofi swaync \
 blueman grim slurp wl-clipboard swww \
 brightnessctl pamixer playerctl neofetch
 
----
-
-## 🚀 Installation
+🚀 Installation
 
 git clone https://github.com/sweeny68/hyprland-dotfiles.git
 cd hyprland-dotfiles
@@ -77,7 +75,7 @@ cp -r neofetch/.config/neofetch ~/.config/
 chmod +x ~/.config/hypr/scripts/*.sh
 
 🎮 Keybindings (Hyprland)
-Keybind	Action
+Keybinding	Action
 SUPER + Return	Open Kitty terminal
 SUPER + Space	Launch Wofi
 SUPER + Tab	Toggle Waybar/SwayNC
@@ -87,9 +85,7 @@ XF86Audio* / XF86MonBrightness*	Media controls
 
 Oran McClintock
 oranmcclintock.com
-@sweeny68
+Twitter: @sweeny68
 📄 License
 
-MIT
-
----
+MIT License
