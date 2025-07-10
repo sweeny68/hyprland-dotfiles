@@ -54,8 +54,9 @@ sudo apt install hyprland kitty waybar wofi swaync \
 blueman grim slurp wl-clipboard swww \
 brightnessctl pamixer playerctl neofetch
 
-Optional: tailscale, cliphist
-🚀 Installation
+---
+
+## 🚀 Installation
 
 git clone https://github.com/sweeny68/hyprland-dotfiles.git
 cd hyprland-dotfiles
@@ -90,3 +91,5 @@ oranmcclintock.com
 📄 License
 
 MIT
+
+---
