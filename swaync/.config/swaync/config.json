@@ -59,6 +59,7 @@
             "label": "󰃟 "
         },
         "buttons-grid": {
+            "_comment": "'\\u200A' is to add space and centre icons",       
             "actions": [
                 {
                     "label": "󰝟",
@@ -66,7 +67,7 @@
                     "type": "toggle"
                 },
                 {
-                    "label": "",
+                    "label": "\u200A\u200A\u200A\u200A\u200A",
                     "command": "kitty nmtui"
                 },
                 {
@@ -74,7 +75,7 @@
                     "command": "~/.config/hypr/scripts/start-bluetooth.sh"
                 },
                 {
-                    "label": "",
+                    "label": "\u200A\u200A\u200A\u200A",
                     "command": "kitty bash -i -c 'btop'"
                 },
                 {
@@ -90,7 +91,7 @@
                     "command": "systemctl poweroff"
                 },
                 {
-                    "label": "󰅠 ",
+                    "label": "󰅠\u200A\u200A\u200A\u200A",
                     "command": "~/Applications/Nextcloud.AppImage --background"
                 }
             ]
