@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing wallpapers
-WALLPAPER_DIR="$HOME/Pictures/wallpapers"
+WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
 STATE_FILE="$HOME/.current_wallpaper_index"
 
 # Load all wallpapers into array
