@@ -10,7 +10,7 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 ## 📁 Structure
 
 ```bash
-~/.dotfiles
+~/.Hyprland-dotfiles
 ├── hypr/
 │   └── .config/hypr/
 │       ├── hyprland.conf
