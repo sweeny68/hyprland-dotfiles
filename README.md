@@ -113,10 +113,10 @@ chmod +x ~/.config/hypr/scripts/*.sh
 
 ```bash
 Keybinding	      Action
-SUPER + Return	  Open Kitty terminal
-SUPER + Space	    Launch Wofi
+SUPER + Return	      Open Kitty terminal
+SUPER + Space	      Launch Wofi
 SUPER + Tab	      Toggle Waybar/SwayNC
-CTRL + SHIFT + 4	Area screenshot
+CTRL + SHIFT + 4      Area screenshot
 
 XF86Audio* / XF86MonBrightness*	Media controls
 ```
