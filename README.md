@@ -9,14 +9,40 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 
 ## 📁 Structure
 
-~/.config/
-├── hypr/ # Hyprland config + launch scripts
-├── kitty/ # Kitty terminal + 100+ themes
-├── swaync/ # Notifications (SwayNC)
-├── waybar/ # Status bar (custom modules)
-├── wofi/ # Launcher + power menu
-├── neofetch/ # System info
-
+```bash
+~/.dotfiles
+├── hypr/
+│   └── .config/hypr/
+│       ├── hyprland.conf
+│       └── scripts/
+│           ├── areascreenshot
+│           └── startup.sh
+├── kitty/
+│   └── .config/kitty/
+│       ├── kitty.conf
+│       └── kitty-themes/
+├── neofetch/
+│   └── .config/neofetch/
+│       └── config.conf
+├── swaync/
+│   └── .config/swaync/
+│       ├── config.json
+│       └── style.css
+├── waybar/
+│   └── .config/waybar/
+│       ├── config
+│       ├── config-with-power-menu
+│       ├── style.css
+│       ├── scripts/
+│       │   ├── change-theme.sh
+│       │   └── waybar-tailscale
+│       │
+│       ├── config
+│       ├── style.css
+│       └── power-menu/
+│           └── wofi-power-menu
+└── README.md
+```
 
 ---
 
