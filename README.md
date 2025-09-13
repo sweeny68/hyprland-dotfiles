@@ -128,6 +128,3 @@ XF86Audio* / XF86MonBrightness*	Media controls
 - Oran McClintock
 - oranmcclintock.com
 
-📄 License
-
-MIT License
