@@ -5,11 +5,8 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 > 🧠 **Idle RAM:** ~400–450MB  
 > ⚡ **Boot time:** <10 seconds on Debian 13
 
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ff01c611-0e0d-4d02-88ea-64ece6f6e592" width="49%" />
-  <img src="https://github.com/user-attachments/assets/ebdaadcc-2fc2-4d33-a2f7-7b9fdd57c8a6" width="49%" />
-</p>
+  <img src="https://github.com/user-attachments/assets/ff01c611-0e0d-4d02-88ea-64ece6f6e592" >
+  <img src="https://github.com/user-attachments/assets/ebdaadcc-2fc2-4d33-a2f7-7b9fdd57c8a6" >
 
 
 ---
