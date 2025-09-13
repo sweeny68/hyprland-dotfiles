@@ -1,9 +1,9 @@
-# 🌀 Hyprland Dotfiles by Oran McClintock
+# Hyprland Dotfiles by Oran McClintock
 
 Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is highly optimized for low resource usage and fast startup — ideal for daily productivity and older hardware.
 
 > 🧠 **Idle RAM:** ~400–450MB  
-> ⚡ **Boot time:** <10 seconds on Debian 12
+> ⚡ **Boot time:** <10 seconds on Debian 13
 
 <img width="1439" height="899" alt="2025-09-03_11-32-38" src="https://github.com/user-attachments/assets/ff01c611-0e0d-4d02-88ea-64ece6f6e592" />
 
