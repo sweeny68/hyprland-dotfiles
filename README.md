@@ -5,7 +5,12 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 > 🧠 **Idle RAM:** ~400–450MB  
 > ⚡ **Boot time:** <10 seconds on Debian 13
 
-<img width="1439" height="899" alt="2025-09-03_11-32-38" src="https://github.com/user-attachments/assets/ff01c611-0e0d-4d02-88ea-64ece6f6e592" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ff01c611-0e0d-4d02-88ea-64ece6f6e592" width="49%" />
+  <img src="https://github.com/user-attachments/assets/ebdaadcc-2fc2-4d33-a2f7-7b9fdd57c8a6" width="49%" />
+</p>
+
 
 ---
 
@@ -93,7 +98,7 @@ cd hyprland-dotfiles
 # Backup existing configs if needed
 ```bash
 mkdir -p ~/.config_backup
-mv ~/.config/hypr ~/.config_backup/hypr_$(date +%s) 2>/dev/null
+mv ~/.config/hypr ~/.config_backup/
 ```
 
 # Copy configs
@@ -111,19 +116,16 @@ cp -r neofetch/.config/neofetch ~/.config/
 chmod +x ~/.config/hypr/scripts/*.sh
 ```
 
-## Keybindings (Hyprland)
+## Keybindings 
 
-```bash
-Keybinding	      Action
-SUPER + Return	      Open Kitty terminal
-SUPER + Space	      Launch Wofi
-SUPER + Tab	      Toggle Waybar/SwayNC
-CTRL + SHIFT + 4      Area screenshot
-
-XF86Audio* / XF86MonBrightness*	Media controls
-```
-
-👤 Author
+| Keybinding            | Action                   |
+|-----------------------|--------------------------|
+| `SUPER + Return`      | Open Kitty terminal      |
+| `SUPER + Space`       | Launch Wofi              |
+| `SUPER + Tab`         | Toggle Waybar / SwayNC   |
+| `CTRL + SHIFT + 4`    | Area screenshot          |
+| `XF86Audio*`          | Media controls (audio)   |
+| `XF86MonBrightness*`  | Media controls (brightness) |
 
 - Oran McClintock
 - oranmcclintock.com
