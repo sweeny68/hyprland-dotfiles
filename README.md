@@ -2,8 +2,8 @@
 
 Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is highly optimized for low resource usage and fast startup - ideal for daily productivity and older hardware.
 
-> 🧠 **Idle RAM:** ~400–450MB  
-> ⚡ **Boot time:** <10 seconds on Debian 13
+>  **Idle RAM:** ~400–450MB  
+>  **Boot time:** <10 seconds on Debian 13
 
   <img src="https://github.com/user-attachments/assets/ff01c611-0e0d-4d02-88ea-64ece6f6e592" >
   <img src="https://github.com/user-attachments/assets/ebdaadcc-2fc2-4d33-a2f7-7b9fdd57c8a6" >
@@ -11,7 +11,7 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 
 ---
 
-## 📁 Structure
+## Structure
 
 ```bash
 ~/.Hyprland-dotfiles
@@ -50,7 +50,7 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 
 ---
 
-## 🛠 Features
+## Features
 
 - Dual-monitor layout (eDP-1 + HDMI-A-1)  
 - Rounded corners, blur, shadows, gaps  
@@ -62,7 +62,7 @@ Minimal, fast, and functional Wayland desktop powered by Hyprland. This setup is
 
 ---
 
-## 🔧 Scripts
+## Scripts
 
 Located in `~/.config/hypr/scripts/`:
 
@@ -85,7 +85,7 @@ blueman grim slurp wl-clipboard swww \
 brightnessctl pamixer playerctl neofetch
 ```
 
-## 🚀 Installation
+## Installation
 
 ```bash
 git clone https://github.com/sweeny68/hyprland-dotfiles.git
