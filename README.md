@@ -75,7 +75,7 @@ Located in `~/.config/hypr/scripts/`:
 
 ---
 
-## ⚙ Requirements
+## Requirements
 
 Install the following packages:
 
